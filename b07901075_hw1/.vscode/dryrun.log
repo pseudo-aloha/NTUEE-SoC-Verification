@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/liyanru/Documents/socvhw/b07901075_hw1'
+make: Leaving directory `/Users/liyanru/Documents/socvhw/b07901075_hw1'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

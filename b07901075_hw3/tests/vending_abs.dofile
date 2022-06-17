@@ -1,0 +1,15 @@
+read rtl tests/vending_abs.v
+blast ntk
+bsetorder -file
+bconstruct -all
+pinit init
+ptrans ti t
+pimage -next 10
+pcheckp -o 0
+pcheckp -o 1
+pcheckp -o 2
+pimage -next 10
+pcheckp -o 0
+pcheckp -o 1
+pcheckp -o 2
+quit -f

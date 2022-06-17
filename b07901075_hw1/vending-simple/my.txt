@@ -1,0 +1,82 @@
+$version Yosys $end
+$scope module vendingMachine $end
+$var input 2 n1 coinInNTD_50 $end
+$var input 2 n2 coinInNTD_10 $end
+$var input 2 n3 coinInNTD_5 $end
+$var input 2 n4 coinInNTD_1 $end
+$var input 2 n5 itemTypeIn $end
+$upscope $end
+$enddefinitions $end
+#0
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#5
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#10
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#15
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#20
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#25
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#30
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#35
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#40
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#45
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#50
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+#55
+b01 n1
+b01 n2
+b00 n3
+b01 n4
+b01 n5
+
